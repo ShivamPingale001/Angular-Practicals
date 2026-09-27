@@ -1,12 +1,19 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { DatePipe } from '@angular/common';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
+  standalone: true,
+  imports: [DatePipe],
   templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('Practical-01');
+  title = 'Angular 20 Interpolation';
+  username = 'DevUser';
+  today = new Date();
+
+  getGreeting(): string {
+    return `Welcome back, ${this.username}!`;
+  }
 }
