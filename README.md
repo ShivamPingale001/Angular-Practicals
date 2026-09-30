@@ -1,59 +1,42 @@
-# Practical01
+# Angular Practicals
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.0.
+This repository contains my Angular practical assignments completed using Angular CLI.
 
-## Development server
+## Practicals
 
-To start a local development server, run:
+### Practical-01
+Basic Angular application.
 
-```bash
-ng serve
-```
+### Practical-02
+Angular practical application.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Practical-03
+Weekly Timetable application.
 
-## Code scaffolding
+### Practical-04
+Portfolio application using Angular.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Practical-05
+Two-Way Data Binding using `ngModel`.
 
-```bash
-ng generate component component-name
-```
+### Practical-06
+Simple Angular Routing application.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Practical-07
+Route Parameters and retrieving data in components.
 
-```bash
-ng generate --help
-```
+## Technologies Used
 
-## Building
+- Angular
+- TypeScript
+- HTML
+- CSS
+- Angular CLI
+- Node.js
 
-To build the project run:
+## Author
 
-```bash
-ng build
-```
+**Shivam Pingale**
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+GitHub:  
+https://github.com/ShivamPingale001
